@@ -1,0 +1,6 @@
+Utente(id_utente, nome_utente, password, ruolo)
+Cliente(id_cliente, nome_cliente, via, civico, città, cap, id_utente)
+Zona(id_zona, nome_zona, descrizione, id_utente, id cliente)
+Attrezzo(id_attrezzo, nome_attrezzo, stato, id_utente)
+Task(id_task, titolo, descrizione, categoria, data_programmata, periodicità, stato, id_zona)
+Necessita(id_task, id_attrezzo)
